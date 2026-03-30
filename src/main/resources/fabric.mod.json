@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"id": "hidehotbar",
+	"version": "1.0.0",
+	"name": "Hide Hotbar",
+	"description": "Hides the hotbar in third-person view.",
+	"authors": ["splewsh"],
+	"environment": "client",
+	"entrypoints": {
+		"main": ["splewsh.hidehotbar.HideHotbar"]
+	},
+	"mixins": ["hidehotbar.mixins.json", "hidehotbar.client.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	}
+}
