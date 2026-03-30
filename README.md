@@ -27,3 +27,11 @@ Hide Hotbar requires the [Fabric API](https://modrinth.com/mod/fabric-api), [Clo
 Please report them on Hide Hotbar's [GitHub repository](https://github.com/splewsh/hidehotbar/issues). Go to [the Issues tab](https://github.com/splewsh/hidehotbar/issues) and put your issue and attatch the latest log file to help us diagnose the issue.
 
 I am not responsible for any sensitve info you upload (please censor it beforehand).
+
+[![Ultraservers](https://cdn.modrinth.com/data/cached_images/975b29c3c9453d777f239cad60e4ca56382f2d54_0.webp)](https://ultraservers.com/stovonson)
+
+<center>
+
+made by splewsh
+
+</center>
