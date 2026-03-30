@@ -1,13 +1,14 @@
 {
 	"schemaVersion": 1,
 	"id": "hidehotbar",
-	"version": "1.0.0",
+	"version": "${version}",
 	"name": "Hide Hotbar",
 	"description": "Hides the hotbar in third-person view.",
 	"authors": ["splewsh"],
 	"environment": "client",
 	"entrypoints": {
-		"main": ["splewsh.hidehotbar.HideHotbar"]
+		"main": ["splewsh.hidehotbar.HideHotbar"],
+		"modmenu": ["splewsh.hidehotbar.ModMenuIntegration"]
 	},
 	"mixins": ["hidehotbar.mixins.json", "hidehotbar.client.mixins.json"],
 	"depends": {

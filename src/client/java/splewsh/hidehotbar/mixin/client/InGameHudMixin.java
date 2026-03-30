@@ -5,6 +5,7 @@ import net.minecraft.client.gui.Gui;
 import net.minecraft.client.CameraType;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.DeltaTracker;
+import splewsh.hidehotbar.HideHotbarConfig;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -19,7 +20,14 @@ public class InGameHudMixin {
             cancellable = true
     )
     private void hideHotbarInThirdPerson(GuiGraphics guiGraphics, DeltaTracker deltaTracker, CallbackInfo ci) {
-        if (Minecraft.getInstance().options.getCameraType() != CameraType.FIRST_PERSON) {
+        CameraType camera = Minecraft.getInstance().options.getCameraType();
+        HideHotbarConfig config = HideHotbarConfig.get();
+
+        if (camera == CameraType.FIRST_PERSON && config.hideInFirstPerson) {
+            ci.cancel();
+        } else if (camera == CameraType.THIRD_PERSON_BACK && config.hideInThirdPersonBack) {
+            ci.cancel();
+        } else if (camera == CameraType.THIRD_PERSON_FRONT && config.hideInThirdPersonFront) {
             ci.cancel();
         }
     }
