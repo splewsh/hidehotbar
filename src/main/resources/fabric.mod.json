@@ -13,7 +13,7 @@
 	"mixins": ["hidehotbar.mixins.json", "hidehotbar.client.mixins.json"],
 	"depends": {
 		"fabricloader": ">=0.18.5",
-		"minecraft": "~1.21.1",
+		"minecraft": ">=1.21 <=1.21.11",
 		"java": ">=21"
 	}
 }
