@@ -2,7 +2,7 @@
 
 <a href="https://github.com/splewsh/hidehotbar"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/compact/available/github_vector.svg" alt="Available on GitHub"></a>
 <a href="https://modrinth.com/mod/hidehotbar"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/compact/available/modrinth_vector.svg" alt="Available on Modrinth"></a>
-<a href=""><img src="https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/compact/available/curseforge_vector.svg" alt="Available on CurseForge"></a></center>
+<a href="https://www.curseforge.com/minecraft/mc-mods/hide-hotbar"><img src="https://raw.githubusercontent.com/intergrav/devins-badges/refs/heads/v3/assets/compact/available/curseforge_vector.svg" alt="Available on CurseForge"></a></center>
 
 ## What does Hide Hotbar do?
 
